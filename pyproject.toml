@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "transformer-ext"
+version = "0.1.0"
+description = ""
+authors = ["Takuya Makino <takuyamakino15@gmail.com>"]
+readme = "README.md"
+packages = [{include = "transformer_ext"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.27.4"
+torch = "^2.0.0"
+pre-commit = "^3.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
